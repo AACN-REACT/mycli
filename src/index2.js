@@ -1,8 +1,8 @@
-import {mountDOM} from './components/mountdom.js'
+import { mountDOM } from "./components/mountdom.js";
 
-const root = document.querySelector('#root')
+const root = document.querySelector("#root");
 
-const myel =  document.createElement("div");
-myel.innerHTML="hello from non react component!"
+const myel = document.createElement("h1");
+myel.innerHTML = "hello from non react component!";
 
-mountDOM(myel, root)
+mountDOM(myel, root);
