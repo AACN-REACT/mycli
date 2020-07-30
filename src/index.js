@@ -1,12 +1,8 @@
-import * as React from 'react'
-import * as ReactDOM from 'react-dom'
-import {Greeting } from './components/greeting.jsx';
+import { mountDOM } from "./components/mountdom.js";
 
+const root = document.querySelector("#root");
 
+const myel = document.createElement("h1");
+myel.innerHTML = "hello from non react component!";
 
-
-const root = document.querySelector('#root')
-
-
-
-render(<Greeting />, root)
+mountDOM(myel, root);
