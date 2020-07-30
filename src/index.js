@@ -1,10 +1,10 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import {render} from 'react-dom'
+import {Greeting } from './components/greeting.jsx'
 
 
 
 const root = document.querySelector('#root')
 
 
-render(<App/>, root)
+render(<Greeting />, root)

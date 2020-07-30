@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Message } from "./message.jsx";
-function Greeting() {
+
+
+export function Greeting() {
   const [show, switchShow] = React.useState(false);
 
   return (
